@@ -39,7 +39,6 @@ module.exports = {
   },
 
   afterInstall: function(options) {
-    return this._fixBlueprint(options).afterInstall(options);
   },
 
   beforeUninstall: function(options) {
@@ -47,6 +46,5 @@ module.exports = {
   },
 
   afterUninstall: function(options) {
-    return this._fixBlueprint(options).afterUninstall(options);
   }
 };
